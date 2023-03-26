@@ -1,6 +1,8 @@
 import './App.css';
+import Form from './component/Form';
+// import ClickEvevnt from './component/ClickEvevnt';
 // import ButtonClicker from './component/ButtonClicker';
-import DigitalClock from './component/DigitalClock';
+// import DigitalClock from './component/DigitalClock';
 // import SlotMechine from './component/SlotMechine';
 
 const App = () => {
@@ -9,7 +11,10 @@ const App = () => {
     <>
       {/* <SlotMechine /> */}
       {/* <ButtonClicker /> */}
-      <DigitalClock />
+      {/* <DigitalClock /> */}
+      {/* <ClickEvevnt /> */}
+      <Form />
+
     </>
   );
 }
