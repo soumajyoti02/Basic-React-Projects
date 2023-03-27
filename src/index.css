@@ -25,6 +25,7 @@
 .innerCardLightBlueTheme {
     background: rgb(255, 255, 255);
     background: linear-gradient(61deg, rgba(255, 255, 255, 1) 0%, rgba(113, 208, 215, 1) 100%);
+    box-shadow: 10px 5px 60px black;
 }
 
 .cardButtonIncrement:hover {

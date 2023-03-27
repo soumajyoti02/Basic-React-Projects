@@ -1,5 +1,7 @@
 import './App.css';
-import Accordian from './component/Accordian/Accordian';
+import PokemonAPI from './component/PokemonAPI';
+// import UseStateLearn from './component/UseStateLearn';
+// import Accordian from './component/Accordian/Accordian';
 // import Todo from './component/Todo';
 // import Form from './component/Form';
 // import ClickEvevnt from './component/ClickEvevnt';
@@ -17,8 +19,9 @@ const App = () => {
       {/* <ClickEvevnt /> */}
       {/* <Form /> */}
       {/* <Todo /> */}
-      <Accordian />
-
+      {/* <Accordian /> */}
+      {/* <UseStateLearn /> */}
+      <PokemonAPI />
 
     </>
   );
