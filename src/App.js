@@ -1,4 +1,5 @@
 import './App.css';
+import Todo from './component/Todo';
 // import Form from './component/Form';
 // import ClickEvevnt from './component/ClickEvevnt';
 // import ButtonClicker from './component/ButtonClicker';
@@ -14,6 +15,7 @@ const App = () => {
       {/* <DigitalClock /> */}
       {/* <ClickEvevnt /> */}
       {/* <Form /> */}
+      <Todo />
 
 
     </>
