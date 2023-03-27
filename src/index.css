@@ -16,3 +16,37 @@
     background-color: #d2a813;
     background-image: linear-gradient(315deg, #4a3a02 0%, #000000 74%);
 }
+
+.lightGreenTheme {
+    background: rgb(81, 121, 9);
+    background: linear-gradient(61deg, rgba(81, 121, 9, 1) 0%, rgba(0, 212, 255, 1) 100%, rgba(2, 0, 36, 1) 100%);
+}
+
+.innerCardLightBlueTheme {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(61deg, rgba(255, 255, 255, 1) 0%, rgba(113, 208, 215, 1) 100%);
+}
+
+/* .cardButtonIncrement .MuiSvgIcon-root {
+    color: #000000;
+    font-size: 100px;
+    border-radius: 20px;
+    box-shadow: lemonchiffon;
+    box-shadow: 3px;
+}
+
+.cardButtonDecrement .MuiSvgIcon-root {
+    color: #000000;
+    font-size: 100px;
+    border-radius: 20px;
+    box-shadow: lemonchiffon;
+    box-shadow: 3px;
+} */
+
+.cardButtonIncrement:hover {
+    color: #166d3b
+}
+
+.cardButtonDecrement:hover {
+    color: #ff4757;
+}
