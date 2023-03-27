@@ -39,7 +39,7 @@ const Todo = () => {
                     <h1 className="text-6xl font-mono font-semibold">ToDo List</h1>
 
                     <div className=" space-x-1 w-[90%] m-auto">
-                        <input type="text" value={input} placeholder='Enter Your Task' className='outline-none  bg-transparent placeholder:text-slate-700 placeholder:text-lg placeholder:font-semibold h-10 border-b-2 border-b-violet-500 text-center' onChange={handleOnChange} />
+                        <input type="text" value={input} placeholder='Enter Your Task' className='outline-none  bg-transparent placeholder:text-slate-400 placeholder:text-lg placeholder:font-semibold h-10 border-b-2 border-b-violet-500 text-center' onChange={handleOnChange} />
 
                         <Button className="newBtn" onClick={handleAddTask} disabled={input.length === 0}>
                             <AddIcon fontSize='large' />
