@@ -1,5 +1,5 @@
 import './App.css';
-import Form from './component/Form';
+// import Form from './component/Form';
 // import ClickEvevnt from './component/ClickEvevnt';
 // import ButtonClicker from './component/ButtonClicker';
 // import DigitalClock from './component/DigitalClock';
@@ -13,7 +13,8 @@ const App = () => {
       {/* <ButtonClicker /> */}
       {/* <DigitalClock /> */}
       {/* <ClickEvevnt /> */}
-      <Form />
+      {/* <Form /> */}
+
 
     </>
   );
